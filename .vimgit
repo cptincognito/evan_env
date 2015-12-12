@@ -1,0 +1,9 @@
+"================================================================================
+"Git shortcuts
+"Assumes that current connection is defined in env or p4config
+"================================================================================
+
+nnoremap <leader>gi :!git status<CR>
+nnoremap <leader>ga :!git add <C-R>%<CR>
+nnoremap <leader>gc :!git commit <C-R>%<CR>
+

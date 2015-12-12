@@ -1,0 +1,18 @@
+"===============================================================================
+# Evan Harper's .ideavimrc
+
+# All items here should be specific to ideavim, should get most settings from a
+# platform independent .vimrc
+
+"This isn't portable between platorms or machines because ideavim can't find ~/
+source C:/Users/eharper/.vimrc
+
+filetype plugin indent on
+nnoremap <leader>l :action Forward<CR>
+nnoremap <leader>k :action Back<CR>
+set clipboard+=unnamed
+
+# RunClass action is what runs the current tab with the python interpreter
+nnoremap <silent> <leader>r :action RunClass<CR>
+nnoremap <leader>q :action QuickJavaDoc<CR>
+nnoremap <leader>n :action Refactorings.QuickListPopupAction<CR>

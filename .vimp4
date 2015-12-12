@@ -1,0 +1,12 @@
+"================================================================================
+"Perforce shortcuts
+"Assumes that current connection is defined in env or p4config
+"================================================================================
+
+nnoremap <leader>pi :!p4 info<CR>
+nnoremap <leader>po :!p4 open <C-R>%<CR>
+nnoremap <leader>ps :!p4 submit -d "ruined" <C-R>%<CR>
+nnoremap <leader>ps :!p4 submit -d %
+nnoremap <leader>pc :!p4 changes -s pending<CR>
+nnoremap <leader>pp :!p4 opened<CR>
+nnoremap <leader>pa :!p4 add <C-R>%<CR>
